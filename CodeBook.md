@@ -1,19 +1,12 @@
-<<<<<<< HEAD
-## Getting-and-Cleaning-data
-=========================
-
-## Code Book
-=======
-
 ## CodeBook for Getting-and-Cleaning-Data Course Project
 =================================================
 Variables
 =======
-subject				2
+subject				(2)
 	Subject number
 				1..30 Unique identifier assigned to each subject
 
-activity				6..18
+activity				(6..18)
 	Activity label 		
 				WALKING
 				WALKING_UPSTAIRS
@@ -22,267 +15,267 @@ activity				6..18
 				STANDING
 				LAYING
 
-tbodyaccmeanx			4
+tbodyaccmeanx			(4)
 Mean of Mean estimated from body acceleration signals in time domain at direction X of the accelerometer, ¡°t¡± denotes time domain signals. 
 				0.22 .. 0.30 .numeric mean values
 
-tbodyaccmeany			7
+tbodyaccmeany			(7)
 Mean of Mean estimated from body acceleration signals in time domain at direction Y of the accelerometer, ¡°t¡± denotes time domain signals. 
 				-0.04050 .. -0.00130 .numeric mean values
 
-tbodyaccmeanz			6
+tbodyaccmeanz			(6)
 Mean of Mean estimated from body acceleration signals in time domain at direction Z of the accelerometer, ¡°t¡± denotes time domain signals. 
 				-0.153 .. -0.075 .numeric mean values
 
-tbodyaccstdx			7
+tbodyaccstdx			(7)
 Mean of Standard deviation estimated from body acceleration signals at direction X of the accelerometer, ¡°t¡± denotes time domain signals. 
 				-0.9961 .. 0.6269 .numeric mean values
 
-tbodyaccstdy			7	
+tbodyaccstdy			(7)	
 Mean of Standard deviation estimated from body acceleration signals at direction Y of the accelerometer, ¡°t¡± denotes time domain signals. 
 				-0.9902 .. 0.6169 .numeric mean values
 
-tbodyaccstdz			7
+tbodyaccstdz			(7)
 Mean of Standard deviation estimated from body acceleration signals at direction Z of the accelerometer, ¡°t¡± denotes time domain signals. 
 				-0.9877.. 0.6090 .numeric mean values
 
-tgravityaccmeanx			5	
+tgravityaccmeanx			(5)	
 Mean of Mean estimated from gravity acceleration signals in time domain at direction X of the accelerometer, ¡°t¡± denotes time domain signals. 
 				-0.68.. 0.97 .numeric mean values
 
-tgravityaccmeany			7	
+tgravityaccmeany			(7)	
 Mean of Mean estimated from gravity acceleration signals in time domain at direction Y of the accelerometer, ¡°t¡± denotes time domain signals. 
 				-0.4799.. 0.9566 .numeric mean values
 
-tgravityaccmeanz			7
+tgravityaccmeanz			(7)
 Mean of Mean estimated from gravity acceleration signals in time domain at direction Z of the accelerometer, ¡°t¡± denotes time domain signals. 
 				-0.4951.. 0.9579 .numeric mean values
 
-tgravityaccstdx			5
+tgravityaccstdx			(5)
 Mean of Standard deviation estimated from gravity acceleration signals in time domain at direction X of the accelerometer, ¡°t¡± denotes time domain signals. 
 				-1.00.. 0.83 .numeric mean values
 
-tgravityaccstdy			5
+tgravityaccstdy			(5)
 Mean of Standard deviation estimated from gravity acceleration signals in time domain at direction Y of the accelerometer, ¡°t¡± denotes time domain signals. 
 				-0.99.. -0.64 .numeric mean values
 
-tgravityaccstdz			5	
+tgravityaccstdz			(5)	
 Mean of Standard deviation estimated from gravity acceleration signals in time domain at direction Z of the accelerometer, ¡°t¡± denotes time domain signals. 
 				-0.99.. -0.61 .numeric mean values
 
-tbodyaccjerkmeanx			5	
+tbodyaccjerkmeanx			(5)	
 Mean of Mean estimated from Jerk signals derived from body linear acceleration signals at direction X of the accelerometer, obtained by deriving the body linear acceleration in time, ¡°t¡± denotes time domain signals. 
 				0.043.. 0.130 .numeric mean values
 
-tbodyaccjerkmeany			8	
+tbodyaccjerkmeany			(8)	
 Mean of Mean estimated from Jerk signals at direction Y of the accelerometer, obtained by deriving the body linear acceleration in time, ¡°t¡± denotes time domain signals. 
 				-0.03900.. 0.05700 .numeric mean values
 
-tbodyaccjerkmeanz			8	
+tbodyaccjerkmeanz			(8)	
 Mean of Mean estimated from Jerk signals at direction Z of the accelerometer, obtained by deriving the body linear acceleration in time, ¡°t¡± denotes time domain signals. 
 				-0.06700.. 0.03800 .numeric mean values
 
-tbodyaccjerkstdx			7			
+tbodyaccjerkstdx			(7)			
 Mean of Standard deviation estimated from Jerk signals derived from body linear acceleration signals in time domain at direction X of the accelerometer, ¡°t¡± denotes time domain signals. 
 				-0.9946.. 0.5443 .numeric mean values
 
-tbodyaccjerkstdy			7
+tbodyaccjerkstdy			(7)
 Mean of Standard deviation estimated from Jerk signals derived from body liner acceleration signals in time domain at direction Y of the accelerometer, ¡°t¡± denotes time domain signals.
 				-0.9895.. 0.3553 .numeric mean values
 
-tbodyaccjerkstdz			6
+tbodyaccjerkstdz			(6)
 Mean of Standard deviation estimated from Jerk signals derived from body linear acceleration signals in time domain at direction Z of the accelerometer, ¡°t¡± denotes time domain signals. 
 				-0.993.. 0.031 .numeric mean values
 
-tbodygyromeanx			8
+tbodygyromeanx			(8)
 Mean of Mean estimated from body angular velocity signals in time domain at direction X of the gyroscope, ¡°t¡± denotes time domain signals. 
 				-0.20578.. 0.19270 .numeric mean values
 
-tbodygyromeany			7	
+tbodygyromeany			(7)	
 Mean of Mean estimated from body angular velocity signals in time domain at direction Y of the gyroscope, ¡°t¡± denotes time domain signals. 
 				-0.2042.. 0.0275 .numeric mean values
 
-tbodygyromeanz			8
+tbodygyromeanz			(8)
 Mean of Mean estimated from body angular velocity signals in time domain at direction Z of the gyroscope, ¡°t¡± denotes time domain signals. 
 				-0.07245.. 0.17910 .numeric mean values
 
-tbodygyrostdx			6	
+tbodygyrostdx			(6)	
 Mean of Standard deviation estimated from body angular velocity signals in time domain at direction X of the gyroscope, ¡°t¡± denotes time domain signals. 
 				-0.994.. 0.268 .numeric mean values
 
-tbodygyrostdy			7	
+tbodygyrostdy			(7)	
 Mean of Standard deviation estimated from body angular velocity signals in time domain at direction Y of the gyroscope, ¡°t¡± denotes time domain signals. 
 				-0.9942.. 0.4765 .numeric mean values
 
-tbodygyrostdz			6	
+tbodygyrostdz			(6)	
 Mean of Standard deviation estimated from body angular velocity signals in time domain at direction Z of the gyroscope, ¡°t¡± denotes time domain signals.  	
 				-0.986.. 0.565 .numeric mean values
 
-tbodygyrojerkmeanx			6
+tbodygyrojerkmeanx			(6)
 Mean of Mean estimated from Jerk signals derived from body angular velocity signals at direction X of the gyroscope, ¡°t¡± denotes time domain signals. 
 				-0.157.. -0.022 .numeric mean values
 
-tbodygyrojerkmeany			6
+tbodygyrojerkmeany			(6)
 Mean of Mean estimated from Jerk signals derived from body angular velocity signals at direction Y of the gyroscope, ¡°t¡± denotes time domain signals. 
 				-0.077.. -0.013 .numeric mean values
 
-tbodygyrojerkmeanz			7
+tbodygyrojerkmeanz			(7)
 Mean of Mean estimated from Jerk signals derived from body angular velocity signals at direction Z of the gyroscope,  ¡°t¡± denotes time domain signals. 
 				-0.0925.. -0.0069 .numeric mean values
 
-tbodygyrojerkstdx			6	
+tbodygyrojerkstdx			(6)	
 Mean of Standard deviation estimated from Jerk signals derived from body angular velocity signals in time domain for direction X of the gyroscope, ¡°t¡± denotes time domain signals.  	
 				-0.997.. 0.179 .numeric mean values
 
-tbodygyrojerkstdy			6	
+tbodygyrojerkstdy			(6)	
 Mean of Standard deviation estimated from Jerk signals derived from body angular velocity signals in time domain at direction Y of the gyroscope, ¡°t¡± denotes time domain signals. 
 				-0.997.. 0.296 .numeric mean values
 
-tbodygyrojerkstdz			7	
+tbodygyrojerkstdz			(7)	
 Mean of Standard deviation estimated from Jerk signals derived from body angular velocity signals in time domain signals at direction Z of the gyroscope, ¡°t¡± denotes time domain signals. 
 				-0.9954.. 0.1932 .numeric mean values
 
-tbodyaccmagmean			 8
+tbodyaccmagmean			 (8)
 Mean of Mean estimated from Magnitude of three-dimensional body acceleration signals of the accelerometer calculated using the Euclidean norm, ¡°t¡± denotes time domain signals. 
 				-0.98649.. 0.64460 .numeric mean values
 
-tbodyaccmagstd			6	
+tbodyaccmagstd			(6)	
 Mean of Standard deviation estimated from Magnitude of three-dimensional body acceleration signals in time domain of the accelerometer, ¡°t¡± denotes time domain signals. 
 				-0.986.. 0.428 .numeric mean values
 
-tgravityaccmagmean			8
+tgravityaccmagmean			(8)
 Mean of Mean estimated from Magnitude of three-dimensional gravity acceleration signals of the accelerometer calculated using the Euclidean norm, ¡°t¡± denotes time domain signals. 
 				-0.98649.. 0.64460 .numeric mean values
 
-tgravityaccmagstd			6
+tgravityaccmagstd			(6)
 Mean of Standard deviation estimated from Magnitude of three-dimensional gravity signals in time domain of the accelerometer, ¡°t¡± denotes time domain signals. 
 				-0.986.. 0.428 .numeric mean values
 
-tbodyaccjerkmagmean		7	
+tbodyaccjerkmagmean		(7)	
 Mean of Mean estimated from Magnitude of three-dimensional Jerk signals derived from body acceleration signals of the accelerometer calculated using the Euclidean norm, ¡°t¡± denotes time domain signals. 
 				-0.9928. 0.4345 .numeric mean values
 
-tbodyaccjerkmagstd			6	
+tbodyaccjerkmagstd			(6)	
 Mean of Standard deviation estimated from Magnitude of three-dimensional Jerk signals derived from body acceleration signals in time domain of the accelerometer, ¡°t¡± denotes time domain signals. 
 				-0.995.. 0.451 .numeric mean values
 
-tbodygyromagmean 			7	
+tbodygyromagmean 			(7)	
 Mean of Mean estimated from Magnitude of three-dimensional gravity acceleration signals of the gyroscope calculated using the Euclidean norm, ¡°t¡± denotes time domain signals. 
 				-0.9807.. 0.4180 .numeric mean values
 
-tbodygyromagstd			6	
+tbodygyromagstd			(6)	
 Mean of Standard deviation estimated from Magnitude of body acceleration signals in time domain of the gyroscope, ¡°t¡± denotes time domain signals. 
 				-0.981.. 0.300 .numeric mean values
 
-tbodygyrojerkmagmean		6	
+tbodygyrojerkmagmean		(6)	
 Mean of Mean estimated from Magnitude of three-dimensional Jerk signals of body angular velocity signals of the gyroscope calculated using the Euclidean norm, ¡°t¡± denotes time domain signals. 
 				-0.997. 0.088 .numeric mean values
 
-tbodygyrojerkmagstd			6	
+tbodygyrojerkmagstd			(6)	
 Mean of Standard deviation estimated from Magnitude of three dimensional Jerk signals of body angular velocity signals in time domain of the gyroscope, ¡°t¡± denotes time domain signals. 
 				-0.998. 0.250 .numeric mean values
 
-fbodyaccmeanx			6
+fbodyaccmeanx			(6)
 Mean of Mean estimated from FFT (Fast Fourier Transform)-transformed body acceleration signals at direction X of the accelerometer, ¡°f¡± denotes frequency domain signals. 
 				-0.995.. 0.537 .numeric mean values
 
-fbodyaccmeany			7
+fbodyaccmeany			(7)
 Mean of Mean estimated from FFT (Fast Fourier Transform)-transformed body acceleration signals at direction Y of the accelerometer, ¡°f¡± denotes frequency domain signals. 
 				-0.9890.. 0.5242 .numeric mean values
 
-fbodyaccmeanz			6
+fbodyaccmeanz			(6)
 Mean of Mean estimated from FFT (Fast Fourier Transform)-transformed body acceleration signals at direction Z of the accelerometer, ¡°f¡± denotes frequency domain signals. 
 				-0.989.. 0.281 .numeric mean values
 
-fbodyaccstdx			7	
+fbodyaccstdx			(7)	
 Mean of Standard deviation estimated from body acceleration signals in frequency domain at direction X of the accelerometer, ¡°f¡± denotes frequency domain signals transformed with a Fast Fourier Transform (FFT). 
 				-0.9966.. 0.6585 .numeric mean values
 
-fbodyaccstdy			7	
+fbodyaccstdy			(7)	
 Mean of Standard deviation estimated from body acceleration signals in frequency domain at direction Y of the accelerometer, ¡°f¡± denotes frequency domain signals transformed with a Fast Fourier Transform (FFT). 
 				-0.9907.. 0.5602 .numeric mean values
 
-fbodyaccstdz			6	
+fbodyaccstdz			(6)	
 Mean of Standard deviation estimated from body acceleration signals in frequency domain at direction Z of the accelerometer, ¡°f¡± denotes frequency domain signals transformed with a Fast Fourier Transform (FFT). 
 				-0.987.. 0.687 .numeric mean values
 
-fbodyaccjerkmeanx			6	
+fbodyaccjerkmeanx			(6)	
 Mean of Mean estimated from FFT (Fast Fourier Transform)-transformed Jerk signals derived from body acceleration signals at direction X of the accelerometer, ¡°f¡± denotes frequency domain signals. 
 				-0.995.. 0.474 .numeric mean values
 
-fbodyaccjerkmeany			7	
+fbodyaccjerkmeany			(7)	
 Mean of Mean estimated from FFT (Fast Fourier Transform)-transformed Jerk signals derived from body acceleration signals at direction Y of the accelerometer, ¡°f¡± denotes frequency domain signals. 
 				-0.9894.. 0.2767 .numeric mean values
 
-fbodyaccjerkmeanz			6
+fbodyaccjerkmeanz			(6)
 Mean of Mean estimated from FFT (Fast Fourier Transform)-transformed Jerk signals derived from body acceleration signals at direction Z of the accelerometer, ¡°f¡± denotes frequency domain signals. 
 				-0.992.. 0.158 .numeric mean values
 
-fbodyaccjerkstdx			7	
+fbodyaccjerkstdx			(7)	
 Mean of Standard deviation estimated from Jerk signals derived from body acceleration signals in frequency domain at direction X of the accelerometer, ¡°f¡± denotes frequency domain signals transformed with a Fast Fourier Transform (FFT). 
 				-0.9951.. 0.4768 .numeric mean values
 
-fbodyaccjerkstdy			7	
+fbodyaccjerkstdy			(7)	
 Mean of Standard deviation estimated from Jerk signals derived from body acceleration signals in frequency domain at direction Y of the accelerometer, ¡°f¡± denotes frequency domain signals transformed with a Fast Fourier Transform (FFT). 
 				-0.9905.. 0.3498 .numeric mean values
 
-fbodyaccjerkstdz			7	
+fbodyaccjerkstdz			(7)	
 Mean of Standard deviation estimated from Jerk signals derived from body acceleration signals in frequency domain at direction Z of the accelerometer, ¡°f¡± denotes frequency domain signals transformed with a Fast Fourier Transform (FFT). 
 				-0.9931.. -0.0062 .numeric mean values
 
-fbodygyromeanx			6	
+fbodygyromeanx			(6)	
 Mean of Mean estimated from FFT (Fast Fourier Transform)-transformed body angular velocity signals at direction X of the gyroscope, ¡°f¡± denotes frequency domain signals. 
 				-0.993.. 0.475 .numeric mean values
 
-fbodygyromeany			6	
+fbodygyromeany			(6)	
 Mean of Mean estimated from FFT (Fast Fourier Transform)-transformed body angular velocity signals at direction Y of the gyroscope, ¡°f¡± denotes frequency domain signals. 
 				-0.994.. 0.329 .numeric mean values
 
-fbodygyromeanz			6	
+fbodygyromeanz			(6)	
 Mean of Mean estimated from FFT (Fast Fourier Transform)-transformed body angular velocity signals at direction Z of the gyroscope, ¡°f¡± denotes frequency domain signals. 
 				-0.986.. 0.492 numeric mean values
 
-fbodygyrostdx			5	
+fbodygyrostdx			(5)	
 Mean of Standard deviation estimated from angular velocity signals in frequency domain at direction X of the gyroscope, ¡°f¡± denotes frequency domain signals transformed with a Fast Fourier Transform (FFT). 
 				-0.99.. 0.20 .numeric mean values
 
-fbodygyrostdy			6
+fbodygyrostdy			(6)
 Mean of Standard deviation estimated from angular velocity signals in frequency domain at direction Y of the gyroscope, ¡°f¡± denotes frequency domain signals transformed with a Fast Fourier Transform (FFT). 
 				-0.994.. 0.646 .numeric mean values
 
-fbodygyrostdz			6
+fbodygyrostdz			(6)
 Mean of Standard deviation estimated from angular velocity signals in frequency domain at direction Z of the gyroscope, ¡°f¡± denotes frequency domain signals transformed with a Fast Fourier Transform (FFT). 
 				-0.987.. 0.522 .numeric mean values
 
-fbodyaccmagmean			7	
+fbodyaccmagmean			(7)	
 Mean of Mean estimated from FFT (Fast Fourier Transform)-transformed Magnitude of three-dimensional body acceleration signals of the accelerometer, ¡°f¡± denotes frequency domain signals. 
 				-0.9868.. 0.5866 .numeric mean values
 
-fbodyaccmagstd			8	
+fbodyaccmagstd			(8)	
 Mean of Standard deviation estimated from Magnitude of three-dimensional body acceleration signals in frequency domain of the acceleromete, ¡°f¡± denotes frequency domain signals transformed with a Fast Fourier Transform (FFT). 
 				-0.98765.. 0.17868 .numeric mean values
 
-fbodyaccjerkmagmean		8	
+fbodyaccjerkmagmean		(8)	
 Mean of Mean estimated from FFT (Fast Fourier Transform)-transformed Magnitude of three-dimensional Jerk signals derived from body acceleration signals of the accelerometer, ¡°f¡± denotes frequency domain signals. 
 				-0.99400.. 0.53840 .numeric mean values
 
-fbodyaccjerkmagstd			6	
+fbodyaccjerkmagstd			(6)	
 Mean of Standard deviation estimated from Magnitude of three-dimensional body acceleration signals in frequency domain of the accelerometer, ¡°f¡± denotes frequency domain signals transformed with a Fast Fourier Transform (FFT). 
 				-0.994.. 0.316 .numeric mean values
 
-fbodygyromagmean			8	
+fbodygyromagmean			(8)	
 Mean of Mean estimated from FFT (Fast Fourier Transform)-transformed Magnitude of three-dimensional body angular velocity signals of the gyroscope, ¡°f¡± denotes frequency domain signals. 
 				-0.98654.. 0.20398 .numeric mean values
 
-fbodygyromagstd			6	
+fbodygyromagstd			(6)	
 Mean of Standard deviation estimated from Magnitude of three-dimensional body angular velocity signals in frequency domain of the gyroscope, ¡°f¡± denotes frequency domain signals transformed with a Fast Fourier Transform (FFT). 
 				-0.981.. 0.237 .numeric mean values
 
-fbodygyrojerkmagmean		6	
+fbodygyrojerkmagmean		(6)	
 Mean of Mean estimated from FFT (Fast Fourier Transform)-transformed Magnitude of three-dimensional Jerk signals derived from body angular velocity signals of the gyroscope, ¡°f¡± denotes frequency domain signals. 
 				-0.998.. 0.147 .numeric mean values
 
-fbodygyrojerkmagstd			6
+fbodygyrojerkmagstd			(6)
 Mean of Standard deviation estimated from Magnitude of three-dimensional Jerk signals derived from three-dimensional body angular velocity signals in frequency domain of the gyroscope, ¡°f¡± denotes frequency domain signals transformed with a Fast Fourier Transform (FFT). 
 				-0.998.. 0.288 .numeric mean values
 
